@@ -411,6 +411,7 @@ aside {
 .recommended-details h1 {
   font-size: .8rem;
   font-weight: 600;
+  color: black;
   padding-bottom: .5rem;
 }
 
@@ -496,10 +497,29 @@ aside {
 
   .name {
     font-weight: 600;
+    color: black;
   }
 
 .likes {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.likes img {
+  width: 16px;
+}
+
+.answer {
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.show-answer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(0, 110, 255);
+  font-size: .9rem;
+  font-weight: 600;
 }
