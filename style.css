@@ -146,7 +146,7 @@ a {
   
     .search-input {
       width: 0;
-      visibility: hidden;
+      display: none;
     }
   
     .search-btn {
@@ -270,7 +270,7 @@ iframe {
 
 @media only screen and (max-width: 1350px) {
   .date, .dot {
-    visibility: hidden;
+    display: none;
   }
 
   .details-right {
@@ -293,7 +293,7 @@ iframe {
   }
 
   .date, .dot {
-    visibility: visible;
+    display: flex;
   }
 
   .details-right {
@@ -302,13 +302,13 @@ iframe {
 
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 755px) {
   .date, .dot {
-    visibility: hidden;
+    display: none;
   }
 
   .views {
-    visibility: hidden;
+    display: none;
   }
 
   .details-left {
@@ -320,14 +320,13 @@ iframe {
   }
 
   .options {
-    visibility: hidden;
+    display: none;
   }
 }
 
 .subscribe {
   display: flex;
   padding: 1rem 0;
-  /* width: 100%; */
   align-items: center;
   justify-content: space-between;
 }
